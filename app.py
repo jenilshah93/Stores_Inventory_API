@@ -12,9 +12,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATION'] = False
 app.secret_key = 'Jenil'
 api = Api(app)
 
-@app.before_first_request
-def create_tables():
-    dba.create_all()
+
 
 jwt = JWT(app,authenticate,identity)
 
