@@ -1,5 +1,5 @@
 # Stores_Inventory_API
-API for different stores and their inventories
+API for different stores and their inventory
 
 ## Installation
 pip install flask
